@@ -1,0 +1,73 @@
+@import "partials/params";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    background: #fff;
+}
+
+.view-port {
+    width: 1139px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+ a {
+  color: #000;
+  text-decoration: none;
+ } 
+
+ // spans
+  .grey {
+     color: $gray;
+  }  
+ 
+  .bold600 {
+      font-weight: 600;
+  }
+
+  .orange {
+    color: $orange;
+}             
+
+//toggle-box
+.toggle-box {
+    display: none;
+  }
+    
+  .box1 {
+    display: block;
+  }
+  .contentHide {
+    display: none;
+  }
+
+  .toggle-box:checked + label + div {
+    display: block;
+  }
+  .toggle-box:checked + .box1 {
+    display: none;
+  }
+
+@import "header";
+@import "description";
+@import "gallery";
+@import "about";
+@import "location";
+@import "map";
+@import "reviews";
+@import "social";
+@import "footer";
+@import "popup";
+// @import "libs.scss";

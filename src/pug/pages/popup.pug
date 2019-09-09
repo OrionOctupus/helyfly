@@ -1,0 +1,80 @@
+
+.modal#myModal
+    .modal__content
+        <span class="close" id="close">&times;</span>
+        h2.modal__title Забронировать
+        form(action="", method="")
+            label(for="date") Дата<sup>*</sup>
+            input(
+                type='date'
+                name='date'
+                placeholder="xx.xx.xx"
+                required
+            )
+
+            label(for="email") Email<sup>*</sup>
+            input(
+                type='email'
+                name='name'
+                placeholder="Электронная почта"
+                required
+            )
+
+            label(for="name") Имя<sup>*</sup>
+            input(
+                type='text'
+                name='name'
+                placeholder="Имя"
+                required
+            )
+
+            label(for="name") Фамилия<sup>*</sup>
+            input(
+                type='text'
+                name='surname'
+                placeholder="Фамилия"
+                required
+            )
+
+            label(for="tel") Телефон<sup>*</sup>
+            input(
+                type="text"
+                name="tel"
+                placeholder="+7 (905) 184-81-40"
+                required
+            )
+
+            label(for="card") Данные карты<sup>*</sup>
+            label(for="card__date")
+            label(for="cvv")
+            .card__form 
+                input(
+                    class="card"
+                    type="text"
+                    name="card"
+                    placeholder="Номер карты"
+                    required
+                )
+                input(
+                    class='card__date'
+                    type="text"
+                    name="card__date"
+                    placeholder="Срок действия"
+                    required
+                )
+                input(
+                    class='cvv'
+                    type="text"
+                    name="cvv"
+                    placeholder="cvv" 
+                    required
+                )
+
+            .modal__check
+                input(class="check" type="checkbox", name="check", checked, required)
+                .check__text
+                    label(class="check__text--label" for="check") Я согласен с пользовательским соглашением и публичной офертой
+            
+            button.header__booking.btn#myBtn Забронировать 
+
+

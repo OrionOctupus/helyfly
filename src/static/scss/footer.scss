@@ -1,0 +1,29 @@
+.footer {
+    background: $darkWhite;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: $gray;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        padding-bottom: 31px;
+
+        .footer__ps {
+            display: flex;
+            justify-content: space-between;
+            width: 100px;
+            margin-left: 40px;
+            margin-top: 11px;
+        }
+    
+        .footer__copy {
+            margin: 5px auto;
+            text-align: center;
+        }
+    }
+}

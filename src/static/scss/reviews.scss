@@ -1,0 +1,95 @@
+.reviews {
+    padding-top: 130px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: $darkGray;
+    
+    &__title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        margin-bottom: 50px;
+    }
+
+    &__wrapper {
+        display: flex;
+
+        .review__icon {
+            width: 101px;
+            height: 101px;
+            margin-right: 20px;
+        }
+
+        .review__icon--valeria {
+            background:  url(../img/valeria.png) no-repeat center;
+        }
+
+        .review__icon--vital {
+            background:  url(../img/vital.png) no-repeat center;
+        }
+
+        .review__icon--jim {
+            background:  url(../img/jim.png) no-repeat center;
+        }
+
+        .review__content {
+            width: 510px;
+            border-bottom: 0.5px solid $gray;
+            margin-bottom: 30px;
+            
+            .content__name {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;               
+            }
+
+            .content__job {
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 21px;
+                margin: 10px 0;
+            }
+
+            .content__rating {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+
+                .rating__stars {
+
+                    display: flex;
+
+                    .star {
+                        width: 18px;
+                        height: 17px;
+                        margin-right: 7px;
+                        background: url(../img/icon-star.png) no-repeat center;
+                    }
+                }
+
+                .rating__text {
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 21px;                
+                    color: $gray;
+                }
+
+            }
+
+            .content__text {
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            .content__date {
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 21px;
+                color: $gray;
+                margin-top: 22px;
+                margin-bottom: 35px;
+            }
+        }
+    }
+}

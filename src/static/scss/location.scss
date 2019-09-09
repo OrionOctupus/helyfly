@@ -1,0 +1,122 @@
+.location {
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: $darkGray;
+    
+    &__title {
+        width: 230px;
+        height: 51px;
+        margin-bottom: 30px;
+
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+    }
+    
+    &__menu {
+        width: 770px;
+        height: 458px;
+        box-sizing: border-box;
+        border: 1px solid $gray;
+        
+        .menu__calendar{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            padding-left: 30px;
+
+            .calendar__date {
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 26px;
+            margin-right: 14px;
+            }
+
+            .calendar__icon {
+                width: 35px;
+                height: 35px;
+                background: url(../img/icon-calendar.png) no-repeat center;
+            }
+        }
+
+        .menu__time {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 0.5px solid $gray;
+            padding: 20px;
+            padding-left: 30px;
+
+            .time__info {
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 26px;
+
+                .info__clock {
+                    
+                }
+
+                .info__price {
+                    line-height: 22px;
+                    margin: 10px 0;
+                }
+
+                .info__place {
+
+                }
+
+            }
+
+            .time__btn {
+
+                .choose__btn {
+                    width: 129px;
+                    height: 50px;
+                    background: #FFFFFF;
+                    border: 2px solid $orange;
+                    box-sizing: border-box;
+                    border-radius: 3px;
+                    color: $orange;
+
+                    &:hover {
+                        color: #fff;
+                        background: $orange;
+                    }
+                }
+            }
+        }
+
+        .info__rating {
+            display: flex;
+            align-items: center;
+            height: 87px;
+            padding-left: 30px;
+
+            .rating__icon {
+                width: 40px;
+                height: 40px;
+                margin-right: 12px;
+                background: url(../img/icon-cup.png) no-repeat center;
+            }
+
+            .rating__text {
+                margin-right: 14px;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 26px;
+            }
+
+            .rating__stars {
+                display: flex;
+
+                .star {
+                    width: 18px;
+                    height: 17px;
+                    margin-right: 7px;
+                    background: url(../img/icon-star.png) no-repeat center;
+                }
+            }
+        }
+    }
+}

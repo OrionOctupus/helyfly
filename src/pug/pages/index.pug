@@ -1,0 +1,198 @@
+doctype html
+html(lang="ru-RU")
+ head
+    title Helyfly
+    link(rel="stylesheet", href="static/css/main.css")
+    link(href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap" rel="stylesheet")
+ body
+   .wrapper
+      header.header
+         .header__top.view-port
+            .header__logo
+               img(src="static/img/logo.png", alt="logo helyfly")
+            .header__phone
+               p
+                  span.grey Телефон:
+                  |  8(800)-123-12-12   
+                  
+         .header__main
+            .header__content.view-port
+               h1.header__title Эксклюзивная <span class="orange">фотосессия</span> при полете на вертолете
+               .header__price 
+                  span.price__text стоимость
+                  span.price__cost 1500&#8381;
+                  .price__pers %
+                     
+               button.header__booking.btn#myBtn Забронировать место
+
+      section.description.view-port
+         .description__info
+            h2.description__title Фотосессия в вертолете
+            p.info__text Полет на вертолете это прекрасная возможность получить новые ощущения! А наш замечательный фотограф запечатлит лучшие моменты
+            .info__list
+               .list__item 
+                  .item__icon.item__icon--clock
+                  p.item__text 3 часа съемки
+               .list__item 
+                  .item__icon.item__icon--camera
+                  p.item__text более 50 фотографий
+               .list__item 
+                  .item__icon.item__icon--map
+                  p.item__text Москва
+               .list__item 
+                  .item__icon.item__icon--speech
+                  p.item__text Готовы ответить на любые вопросы
+            
+            .info__rating 
+               .rating__icon
+               p.rating__text Более <span class="bold600">50</span> отзывов с оценкой 
+               .rating__stars
+                  .star
+                  .star
+                  .star
+                  .star
+                  .star
+
+         .description__video
+
+      section.gallery.view-port
+         h3.gallery__title Фотографии пакета:
+         .gallery__wrapper
+            .gallery__photo.gallery__photo--1
+            .gallery__photo.gallery__photo--2
+            .gallery__photo.gallery__photo--3
+            .gallery__photo.gallery__photo--4
+            .gallery__photo.gallery__photo--2
+            .gallery__photo.gallery__photo--4
+            .gallery__photo.gallery__photo--1
+            .gallery__photo.gallery__photo--3
+
+      section.about.view-port   
+         .about__info
+            .about__photographer
+               h3.photographer__title Об организаторе:
+               p.photographer__text Всем привет! Я фотограф Мария! И по мимо фотосъемки я так же являюсь членом группы экспертов туристической отрасли, которые хорошо разбираются в маркетинге, операциях и услугах обслуживания клиентов, специализирующихся на совместном использовании и частных турах. 
+
+               p.photographer__text Сначала мы (я и моя команда) изучаем интересы клиентов, а затем придумываем подходящее решение, которое соответствует бюджету и планам клиента. Мы никогда не зависим от субпоставщиков и не свяжемся…
+               <input class="toggle-box " id="identifier-1" type="checkbox" >
+               <label class="box1 readmore" for="identifier-1">Читать еще </label>
+               <div class="contentHide photographer__text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, dolorum vel illum temporibus quos, omnis nam blanditiis necessitatibus sequi qui magni reprehenderit. Placeat esse nam culpa corrupti vero eos facere. <label class="readmore" for="identifier-1">Свернуть </label></div>
+            .about__service
+               h3.service__title Что я предоставлю:
+               p.service__text Встречу вас на машине после длительного перелёта. Качественный подбор места и локации для вашей съемки. При необходимости всегда возможно прерваться на обед/ужин. Более 50 фотографий на выходе с обработкой и замечательные впечатления о Дубае !
+               <input class="toggle-box " id="identifier-2" type="checkbox" >
+               <label class="box1 readmore" for="identifier-2">Читать еще </label>
+               <div class="contentHide service__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, dolorum vel illum temporibus quos, omnis nam blanditiis necessitatibus sequi qui magni reprehenderit. Placeat esse nam culpa corrupti vero eos facere. <label class="readmore" for="identifier-2">Свернуть</label></div>
+
+         .about__profile
+            .profile__img 
+            p.profile__name Мария Иванова
+            p.profile__job фотограф
+            .profile__link
+               a(class='link__info' href='#') Показать больше информации о фотографе
+            .profile__heart
+
+      section.location.view-port
+         h2.location__title Доступная съемка &emsp; в ближайшее время:
+         .location__menu
+            .menu__calendar
+               p.calendar__date Пятница, <span class="bold600">14</span> сентября
+               .calendar__icon
+            .menu__time
+               .time__info
+                  p.info__clock 15:00 - 18:00
+                  p.info__price <span class="bold600">1500&#8381;</span> 
+                  p.info__place Осталось &mdash; 1 место 
+               .time__btn
+                  button.choose__btn Выбрать
+            .menu__time
+               .time__info
+                  p.info__clock 15:00 - 18:00
+                  p.info__price <span class="bold600">1500&#8381;</span> 
+                  p.info__place Осталось &mdash; 1 место 
+               .time__btn
+                  button.choose__btn Выбрать
+            .info__rating 
+               .rating__icon
+               p.rating__text Более <span class="bold600">50</span> отзывов с оценкой 
+               .rating__stars
+                  .star
+                  .star
+                  .star
+                  .star
+                  .star
+
+      section.map
+         .map__local
+            
+      section.reviews.view-port
+         h3.reviews__title Отзывы:
+         .reviews__wrapper
+            .review__icon.review__icon--valeria
+            .review__content
+               p.content__name Валерия Антонова
+               p.content__job Арт-директор
+               .content__rating
+                  .rating__stars
+                     .star
+                     .star
+                     .star
+                     .star
+                     .star
+                  .rating__text &#x2714 Супер! Я бы заказал съемку снова!
+               p.content__text Хотим выразить огромную благодарность вашей компании! Получили море ощущений, все прошло просто замечательно. Фотки получились великолепные, отдельное спасибо фотографу!
+               p.content__date 27 Апреля, 2019г.
+         .reviews__wrapper
+            .review__icon.review__icon--vital
+            .review__content
+               p.content__name Виталий Петров
+               p.content__job фотограф
+               .content__rating
+                  .rating__stars
+                     .star
+                     .star
+                     .star
+                     .star
+                     .star
+                  .rating__text &#x2714 Супер! Я бы заказал съемку снова!
+               p.content__text Восторг! :) Очень понравилось :) Захватили последний теплый, солнечный октябрьский день :) Впечатлило всё: сам вертолет, взлет, полёт, приземление. Организация полёта отличная. Спасибо!
+               p.content__date 19 Апреля, 2019г.
+         .reviews__wrapper
+            .review__icon.review__icon--jim
+            .review__content
+               p.content__name Джим Керри
+               p.content__job 
+               .content__rating
+                  .rating__stars
+                     .star
+                     .star
+                     .star
+                     .star
+                     .star
+                  .rating__text &#x2714 Супер! Я бы заказал съемку снова!
+               p.content__text Круто-круто-круто!!! Отмечали мой ДэРэ. Отлично провели время!!! Кстати закуски были вкусными и сытными))Мы с собой ничего не брали. Сами много фоткались,поэтому воспоминания обалденные!!!)) А еще нам всем напечатали по сертификату воздухоплавателя, правда некоторые ленятся за ним съездить))) Но все равно приятно. Короче, Презентстар – проверено. Оценка: пять!
+               p.content__date 11 Апреля, 2019г.
+                     
+      section.social.view-port
+         .social__logo
+               img(src="static/img/logo.png", alt="logo helyfly")
+         .social__list
+            a(href="http://vk.com", target="_blank")
+               .list__item.list__item--vk
+            a(href="http://facebook.com", target="_blank")
+               .list__item.list__item--fb
+            a(href="http://instagram.com", target="_blank")
+               .list__item.list__item--inst
+
+      footer.footer    
+         .footer__content.view-port     
+            .footer__ps
+               img(src="static/img/MC.png", alt="logo helyfly")       
+               img(src="static/img/VISA.png", alt="logo helyfly") 
+            .footer__copy
+               p.copy__text Тех. поддержка: 8(800)700-00-00
+               p.copy__text © 2018 HELYFLY. All Rights Reserved.
+
+include popup.pug
+
+script(src="static/js/main.js")

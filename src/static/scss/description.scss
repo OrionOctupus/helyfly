@@ -1,0 +1,102 @@
+
+.description {
+    padding-top: 70px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    color: $darkGray;
+        
+    &__info {
+        width: 549px;
+
+        .description__title {
+            width: 280px;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 49px;
+        }
+            
+        .info__text {
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 26px;
+        }
+
+        .info__list {
+
+            .list__item {
+                display: flex;
+                align-items: center;
+                margin-top: 16px;
+
+                .item__icon {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 8px;
+                }
+
+                .item__icon--clock {
+                    background: url(../img/icon-clock.png) no-repeat center;
+                }
+                
+                .item__icon--camera {
+                    background: url(../img/icon-camera.png) no-repeat center;
+                }
+
+                .item__icon--map {
+                    background: url(../img/icon-map-pin.png) no-repeat center;
+                }
+
+                .item__icon--speech {
+                    background: url(../img/icon-speech.png) no-repeat center;
+                }
+                
+                .item__text {
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        .info__rating {
+            display: flex;
+            align-items: center;
+            height: 87px;
+            margin-top: 39px;
+            border-top: 0.5px solid $gray;
+            border-bottom: 0.5px solid $gray;
+
+            .rating__icon {
+                width: 40px;
+                height: 40px;
+                margin-right: 12px;
+                background: url(../img/icon-cup.png) no-repeat center;
+            }
+
+            .rating__text {
+                margin-right: 14px;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 26px;
+            }
+
+            .rating__stars {
+                display: flex;
+                .star {
+                    width: 18px;
+                    height: 17px;
+                    margin-right: 7px;
+                    background: url(../img/icon-star.png) no-repeat center;
+                }
+            }
+
+        }
+    }
+
+    &__video {
+        width: 554px;
+        height: 374px;
+        outline: 2px solid red;
+    }
+}

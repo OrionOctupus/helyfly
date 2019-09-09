@@ -1,0 +1,33 @@
+
+<div class="modal" id="myModal">
+  <div class="modal__content"><span class="close" id="close">&times;</span>
+    <h2 class="modal__title">Забронировать</h2>
+    <form action="" method="">
+      <label for="date">Дата<sup>*</sup></label>
+      <input type="date" name="date" placeholder="xx.xx.xx" required="required"/>
+      <label for="email">Email<sup>*</sup></label>
+      <input type="email" name="name" placeholder="Электронная почта" required="required"/>
+      <label for="name">Имя<sup>*</sup></label>
+      <input type="text" name="name" placeholder="Имя" required="required"/>
+      <label for="name">Фамилия<sup>*</sup></label>
+      <input type="text" name="surname" placeholder="Фамилия" required="required"/>
+      <label for="tel">Телефон<sup>*</sup></label>
+      <input type="text" name="tel" placeholder="+7 (905) 184-81-40" required="required"/>
+      <label for="card">Данные карты<sup>*</sup></label>
+      <label for="card__date"></label>
+      <label for="cvv"></label>
+      <div class="card__form"> 
+        <input class="card" type="text" name="card" placeholder="Номер карты" required="required"/>
+        <input class="card__date" type="text" name="card__date" placeholder="Срок действия" required="required"/>
+        <input class="cvv" type="text" name="cvv" placeholder="cvv" required="required"/>
+      </div>
+      <div class="modal__check">
+        <input class="check" type="checkbox" name="check" checked="checked" required="required"/>
+        <div class="check__text">
+          <label class="check__text--label" for="check">Я согласен с пользовательским соглашением и публичной офертой</label>
+        </div>
+      </div>
+      <button class="header__booking btn" id="myBtn">Забронировать </button>
+    </form>
+  </div>
+</div>

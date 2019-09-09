@@ -1,0 +1,42 @@
+.gallery {
+    padding-top: 30px;
+    border-bottom: 0.5px solid $gray;
+
+    &__title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        color: $darkGray;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .gallery__photo {
+            width: 277px;
+            height: 185px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .gallery__photo--1 {
+            background: url(../img/photo-1.png) no-repeat center;
+        }
+
+        .gallery__photo--2 {
+            background: url(../img/photo-2.png) no-repeat center;
+        }
+
+        .gallery__photo--3 {
+            background: url(../img/photo-3.png) no-repeat center;
+        }
+
+        .gallery__photo--4 {
+            background: url(../img/photo-4.png) no-repeat center;
+        }
+    }
+}

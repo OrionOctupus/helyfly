@@ -1,0 +1,30 @@
+.social {
+    display: flex;
+    justify-content: space-between;
+    padding: 87px 35px 35px 120px;
+
+    &__logo {
+
+    }
+
+    &__list {
+        display: flex;
+        .list__item {
+            width: 25px;
+            height: 25px;
+            margin-right: 30px;
+        }
+
+        .list__item--vk {
+            background: url(../img/icon-vk.png) no-repeat center;
+        }
+
+        .list__item--fb {
+            background: url(../img/icon-fb.png) no-repeat center;
+        }
+
+        .list__item--inst {
+            background: url(../img/icon-inst.png) no-repeat center;
+        }
+    }
+}
